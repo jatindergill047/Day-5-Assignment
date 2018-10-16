@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Day-5 Assignment</title>
+</head>
+<body>
+    <div class="main">
+        <form action="#" name="form">
+            <div>
+                <h2 for="que-1">What is the Capital of Canada ?</h2>
+                <input type="text" name="que-1" id="que-1" />
+            </div>
+            <div>
+                <h2 for="que-2">Which country features a maple leaf on its flag?</h2>
+                <input type="text" name="que-2" id="que-2" />
+            </div>
+            
+            <div>
+                <h2 for="que-3">What is the name of the network of computers from which the Internet has emerged?</h2>
+                <input type="text" name="que-3" id="que-3" />
+            </div>
+            
+            <div>
+                <h2 for="que-4">In what year was Google launched on the web?</h2>
+                <div>
+                    <input type="radio" name="radio" value="1997" id="1997" class="radio"/>
+                    <label for="1997">1997</label>
+                </div>
+                <div>
+                    <input type="radio" name="radio" value="2000" id="2000" class="radio"/>
+                    <label for="2000">2000</label>
+                </div>
+                <div>
+                    <input type="radio" name="radio" value="1998" id="1998" class="radio"/>
+                    <label for="1998">1998</label>
+                </div>     
+            </div>
+            
+
+            <div>
+                <h2>Choose only the name of fruits</h2>
+                <div>
+                    <input type="checkbox" id="que-5" name="que-5" value="Banana" />
+                    <label for="Banana">Banana</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="que-5" name="que-5" value="Tomatoes"/>
+                    <label for="Tomatoes">Tomatoes</label>                
+                </div>
+                <div>
+                    <input type="checkbox" id="que-5" name="que-5" value="Apple" />
+                    <label for="Apple">Apple</label>                
+                </div>
+                <div>
+                    <input type="checkbox" id="que-5" name="que-5" value="Lettuce" />
+                    <label for="Lettuce">Lettuce</label>                
+                </div>
+                <div>
+                    <input type="checkbox" id="que-5" name="que-5" value="Cucumber" />
+                    <label for="Cucumber">Cucumber</label>                
+                </div>
+            </div>
+            
+            <h2 id="error"></h2>
+
+            <h1 id=finalScore></h1>
+
+
+
+            <div>
+                <button type="submit" id="subButton" name="subButton" value="submit">Submit</button>
+            </div>
+
+        </form>
+        <script src="./js/logic.js"></script>
+
+    </div>
+</body>
+</html>
